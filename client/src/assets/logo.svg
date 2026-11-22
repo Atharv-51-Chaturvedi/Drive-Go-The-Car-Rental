@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent background -->
+  <!-- Motion / route arc -->
+  <path d="M125 235 C170 105 310 55 485 85 C545 95 595 120 640 155"
+        fill="none" stroke="url(#blue)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M150 250 C195 140 315 105 455 120"
+        fill="none" stroke="#0ea5e9" stroke-width="7" stroke-linecap="round"
+        stroke-dasharray="18 16"/>
+
+  <!-- Location pin -->
+  <path d="M625 115 C625 83 650 60 682 60 C714 60 739 83 739 115
+           C739 158 682 205 682 205 C682 205 625 158 625 115Z"
+        fill="url(#blue)"/>
+  <circle cx="682" cy="115" r="14" fill="white"/>
+
+  <!-- Car body -->
+  <path d="M145 295
+           C165 260 195 235 245 225
+           L305 210
+           C345 168 390 150 455 150
+           L515 150
+           C560 151 590 175 625 210
+           L685 225
+           C712 231 728 250 735 275
+           L748 315
+           L120 315
+           C122 306 132 299 145 295Z"
+        fill="#172033"/>
+
+  <!-- Windows -->
+  <path d="M315 208 C350 173 390 160 450 160 L505 160
+           C540 161 565 177 592 207 L605 220 L300 220Z"
+        fill="#dbeafe"/>
+  <path d="M315 208 L360 162 L360 220 L300 220Z" fill="#bfdbfe"/>
+  <path d="M372 162 L450 160 L450 220 L372 220Z" fill="#eff6ff"/>
+  <path d="M462 160 L505 160 C540 161 565 177 592 207 L605 220 L462 220Z"
+        fill="#dbeafe"/>
+
+  <!-- Car highlights -->
+  <path d="M180 270 C250 245 320 240 405 242 L625 242"
+        fill="none" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+  <path d="M625 210 L685 225" stroke="#0ea5e9" stroke-width="8" stroke-linecap="round"/>
+  <path d="M145 295 L735 295" stroke="#0ea5e9" stroke-width="5"/>
+
+  <!-- Headlight -->
+  <path d="M688 255 L725 264 L733 282 L690 278Z" fill="#38bdf8"/>
+
+  <!-- Wheels -->
+  <circle cx="245" cy="315" r="52" fill="#111827"/>
+  <circle cx="245" cy="315" r="30" fill="#e5e7eb"/>
+  <circle cx="245" cy="315" r="17" fill="#334155"/>
+  <circle cx="610" cy="315" r="52" fill="#111827"/>
+  <circle cx="610" cy="315" r="30" fill="#e5e7eb"/>
+  <circle cx="610" cy="315" r="17" fill="#334155"/>
+
+  <!-- Ground -->
+  <path d="M105 370 H735" stroke="#cbd5e1" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Brand name -->
+  <text x="400" y="425" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="54"
+        font-weight="800" letter-spacing="3" fill="#172033">CAR <tspan fill="#2563eb">RENTAL</tspan></text>
+
+  <!-- Tagline -->
+  <text x="400" y="462" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="16"
+        font-weight="600" letter-spacing="7" fill="#64748b">DRIVE YOUR WAY</text>
+</svg>
